@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'jonajaa/jfc:latest'
-        CONTAINER_NAME = 'jfc'
+        DOCKER_IMAGE = 'jonajaa/jfcgit:latest'
+        CONTAINER_NAME = 'jfcgit'
         PORT_MAPPING = '8089:80'  // adjust the port mapping as needed
     }
 
